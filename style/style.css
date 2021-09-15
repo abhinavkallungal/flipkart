@@ -9,6 +9,7 @@
 body {
   background-color: #F1F3F6;
   font-family: "Roboto";
+  overflow: hidden;
 }
 
 .d-flex {
@@ -126,5 +127,16 @@ nav .container .navbar .items:hover {
 
 .hero .categorys .category:hover {
   color: #2874F0;
+}
+
+.hero .banner {
+  margin: 20px 5px;
+  height: auto;
+  width: 100%;
+}
+
+.hero .banner img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

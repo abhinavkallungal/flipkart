@@ -8,6 +8,7 @@
 body{
     background-color: #F1F3F6;
     font-family: "Roboto";
+    overflow: hidden;
 }
 .d-flex{
     display: flex;
@@ -90,6 +91,16 @@ nav{
             &:hover{
                 color: #2874F0;
             }
+        }
+    }
+    .banner{
+        margin:  20px 5px;
+        height: auto;
+        width: 100%;
+       
+        img{
+            width: 100%;
+            height: auto;
         }
     }
 }
