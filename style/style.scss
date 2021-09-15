@@ -6,3 +6,59 @@
 body{
     background-color: #F1F3F6;
 }
+.d-flex{
+    display: flex;
+}
+nav{
+    background-color:  #2874F0;
+    width: 100%;
+    padding: 10px;
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            .img{
+                width: auto;
+                height: 30px;
+                img{
+                    height: 100%;
+                    width: auto;
+                }
+            }
+        }
+        .search{
+            width: 600px;
+            padding: 5px 20px;
+            background-color: #fff;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            input{
+                border: none;
+                outline: none;
+                width: 100%;
+            }
+            span{
+                font-weight: bold;
+                color: #2874F0;
+            }
+        }
+        .navbar{
+            justify-content: space-between;
+            align-items: center;
+            width:250px;
+            .items{
+                color: #fff;
+                font-weight: bold;
+                align-items: center ;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
