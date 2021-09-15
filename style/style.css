@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -7,6 +8,7 @@
 
 body {
   background-color: #F1F3F6;
+  font-family: "Roboto";
 }
 
 .d-flex {
@@ -88,5 +90,41 @@ nav .container .navbar .items {
 
 nav .container .navbar .items:hover {
   cursor: pointer;
+}
+
+.hero .categorys {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.hero .categorys .category {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hero .categorys .category .img {
+  width: 70px;
+  height: auto;
+}
+
+.hero .categorys .category .img img {
+  width: 100%;
+  height: auto;
+}
+
+.hero .categorys .category:hover {
+  color: #2874F0;
 }
 /*# sourceMappingURL=style.css.map */
