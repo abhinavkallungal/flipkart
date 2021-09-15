@@ -8,7 +8,7 @@
 body{
     background-color: #F1F3F6;
     font-family: "Roboto";
-    overflow: hidden;
+   overflow-x: hidden;
 }
 .d-flex{
     display: flex;
@@ -101,6 +101,89 @@ nav{
         img{
             width: 100%;
             height: auto;
+        }
+    }
+    .dotd{
+        padding: 5px;
+        margin: auto;
+        .LeftSection{
+            width: 83%;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            margin: 0px 10px;
+            .dotd_header{
+                align-items: center;
+                border-bottom: 1px solid #ccc;
+                justify-content: space-between;
+                
+                .Left{
+                   
+                    .svg{
+                        width: 30px;
+                        img{
+                            width: 100%;;
+                        }
+                    }
+                    .time{
+                        color: #666;
+                        font-weight: bold;
+                    }
+                }
+                .right{
+                    .btn{
+                        width: 100px;
+                        background-color: #2874F0;
+                        text-align: center;
+                        padding: 10px;
+                        border-radius: 2px;
+                        
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .posts{
+                padding: 10px;
+                display: flex;
+                align-items:flex-end;
+                .post{
+                    width: 17%;
+                    text-align: center;
+                    line-height: 25px;
+                    height: 100%;   
+                
+                    .name{
+                        font-weight: bold;
+                    }
+                    .price{
+                        color: rgb(45, 146, 45);
+                    }
+                    .type{
+                        color: #666;
+                    }
+    
+                }
+
+            }
+           
+        }
+        .rightSection{
+            width: 17%;
+            height: auto;
+            
+            .img{
+                width: 100%;
+                height: auto;
+                img{
+                    width: 100%;
+                height: auto;
+                }
+            }
+            
         }
     }
 }
