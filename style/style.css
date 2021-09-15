@@ -18,6 +18,20 @@ body {
   display: flex;
 }
 
+.btn {
+  width: 100px;
+  background-color: #2874F0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
 nav {
   background-color: #2874F0;
   width: 100%;
@@ -176,20 +190,6 @@ nav .container .navbar .items:hover {
   font-weight: bold;
 }
 
-.hero .dotd .LeftSection .dotd_header .right .btn {
-  width: 100px;
-  background-color: #2874F0;
-  text-align: center;
-  padding: 10px;
-  border-radius: 2px;
-}
-
-.hero .dotd .LeftSection .dotd_header .right .btn a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-}
-
 .hero .dotd .LeftSection .posts {
   padding: 10px;
   display: -webkit-box;
@@ -205,6 +205,11 @@ nav .container .navbar .items:hover {
   text-align: center;
   line-height: 25px;
   height: 100%;
+}
+
+.hero .dotd .LeftSection .posts .post:hover .img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .hero .dotd .LeftSection .posts .post .name {
@@ -232,5 +237,172 @@ nav .container .navbar .items:hover {
 .hero .dotd .rightSection .img img {
   width: 100%;
   height: auto;
+}
+
+section {
+  padding: 10px;
+}
+
+section .section {
+  width: 100%;
+  background-color: #fff;
+  margin: 10px;
+}
+
+section .section .laptopHeader {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .section .laptopHeader h3 {
+  font-size: 20px;
+}
+
+section .section .posts {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .section .posts .post {
+  width: 17%;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px;
+}
+
+section .section .posts .post:hover .img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+section .section .posts .post .img {
+  width: 100%;
+  height: auto;
+}
+
+section .section .posts .post .img img {
+  width: 100%;
+  height: auto;
+}
+
+section .section .posts .post .spec {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+section .section .posts .post p {
+  color: #2d922d;
+}
+
+.details .post {
+  margin: 20px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.details .post h4 {
+  margin: 20px 0px;
+}
+
+.footer {
+  background-color: #172337;
+  color: #fff;
+  font-size: 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.footer .navi {
+  margin-left: 20px;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .navi .items {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .navi .items h4 {
+  padding: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.footer .navi .items a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.footer .details {
+  padding: 20px;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .details .mail {
+  border-left: 1px solid #666;
+  padding: 20px;
+}
+
+.footer .copy {
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #666;
+}
+
+.footer .copy .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .copy .item span {
+  color: #FFB900;
+}
+
+.footer .copy .item p {
+  font-size: 16px;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
