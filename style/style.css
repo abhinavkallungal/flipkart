@@ -32,6 +32,23 @@ body {
   font-size: 14px;
 }
 
+.witbtn {
+  background-color: #fff;
+  width: 100%;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.witbtn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2874F0;
+  font-size: 18px;
+}
+
 nav {
   background-color: #2874F0;
   width: 100%;
@@ -404,5 +421,165 @@ section .section .posts .post p {
 .footer .copy .item p {
   font-size: 16px;
   margin-left: 10px;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(253, 205, 74, 0.5);
+  width: 100%;
+  height: 100vh;
+}
+
+.login .loginbox {
+  width: 50%;
+  height: 500px;
+  background-color: #fff;
+}
+
+.login .loginbox .left {
+  background-color: #2874F0;
+  color: #fff;
+  width: 40%;
+  height: 100%;
+  padding: 40px 20px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .loginbox .left h3 {
+  font-size: 26px;
+}
+
+.login .loginbox .left p {
+  font-size: 18px;
+  color: #eee;
+}
+
+.login .loginbox .left .img {
+  width: 100%;
+  height: auto;
+}
+
+.login .loginbox .left .img img {
+  width: 100%;
+  height: auto;
+}
+
+.login .loginbox .right {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.login .loginbox .right .email {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #2874F0;
+}
+
+.login .loginbox .right .email input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+.login .loginbox .right .password {
+  width: 100%;
+  border-bottom: 1px solid #2874F0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.login .loginbox .right .password input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+.login .loginbox .right .password a {
+  font-weight: bold;
+  color: #2874F0;
+  text-decoration: none;
+}
+
+.login .loginbox .right p {
+  color: #666;
+  font-size: 14px;
+}
+
+.login .loginbox .right p a {
+  text-decoration: none;
+  color: #2874F0;
+}
+
+.login .loginbox .right .btns {
+  text-align: center;
+}
+
+.login .loginbox .right .btns .orgbtn {
+  margin: 10px 0px 30px;
+  background-color: #FB641B;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login .loginbox .right .btns .orgbtn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+}
+
+.login .loginbox .right .btns span {
+  color: #666;
+  margin: 40px;
+}
+
+.login .loginbox .right .btns .witbtn {
+  margin: 10px 0px 30px;
+  background-color: #fff;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login .loginbox .right .btns .witbtn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2874F0;
+  font-size: 18px;
+}
+
+.login .loginbox .right .bottom {
+  text-align: center;
+  color: #2874F0;
 }
 /*# sourceMappingURL=style.css.map */
