@@ -218,6 +218,10 @@ nav .container .navbar .items:hover {
   overflow-x: scroll;
 }
 
+.hero .dotd .LeftSection .posts::-webkit-scrollbar {
+  display: none;
+}
+
 .hero .dotd .LeftSection .posts .post {
   width: 17%;
   text-align: center;
@@ -665,6 +669,9 @@ section .section .posts .post p {
   .hero .categorys {
     overflow-x: scroll;
   }
+  .hero .categorys::-webkit-scrollbar {
+    display: none;
+  }
   .hero .categorys .category .img {
     width: 80px;
     height: auto;
@@ -681,6 +688,9 @@ section .section .posts .post p {
   }
   section .section .posts {
     overflow-x: scroll;
+  }
+  section .section .posts::-webkit-scrollbar {
+    display: none;
   }
   section .section .posts .post {
     width: 150px;
@@ -731,9 +741,6 @@ section .section .posts .post p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .footer .copy .item .img {
-    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
